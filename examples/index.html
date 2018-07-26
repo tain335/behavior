@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>${htmlWebpackPlugin.options.title}</title>
+        <style>
+            @keyframes wp {
+                100% {
+                    opacity: 0;
+                }
+            }
+            #el1 {
+                animation: wp 6s ease;
+            }
+        </style>
+	</head>
+    <body>
+        <div style="position: relative; top: 10px;background: lightblue;width: 500px">
+            <!-- <video src="http://www.w3school.com.cn/i/movie.ogg"></video> -->
+            <canvas></canvas>
+        </div>
+        <div id="el1" style="width: 200px; height: 200px; background-color: wheat"></div>
+        <div style="width: 200px; height: 200px; background-color: wheat" ></div>
+        <div style="position: relative;top:1px;width: 100px; height: 200px; background-color: greenyellow" ></div>
+        <div style="position: fixed;top: 10px; right: 10px;">
+            <button id="forward">往前</button>
+            <button id="stop">停止</button>
+            <button id="reverse">往后</button>
+            <input id="progress" type="number" placeholder="进度" value="0" step="0.1"/>
+        </div>
+    </body>
+</html>

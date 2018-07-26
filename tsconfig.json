@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5" ,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "watch": true,
+        "outDir": "./dist",
+    },
+    "include": [
+        "./"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

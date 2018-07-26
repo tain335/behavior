@@ -1,0 +1,1 @@
+{"version":3,"file":"simulation.js","sourceRoot":"","sources":["../../src/animation/simulation.ts"],"names":[],"mappings":";;AAAA,2CAAwC;AAExC;IASI,YAAY,SAAqB;QAC7B,IAAG,CAAC,SAAS,EAAE;YACX,IAAI,CAAC,SAAS,GAAG,IAAI,qBAAS,EAAE,CAAC;SACpC;IACL,CAAC;CACJ;AAdD,6BAcC"}
